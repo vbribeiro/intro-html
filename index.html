@@ -2,55 +2,121 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=\, initial-scae=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- OG Tags global início -->
   <meta property="og:site" content="https://html-icarros-academy.netlify.app/" />
   <meta property="og:site_name" content="ICarros Academy" />
-  <meta property="og:image" content="https://html-icarros-academy.netlify.app/img/favicon.jpg" />
+  <meta property="og:image" content="https://html-icarros-academy.netlify.app/img/favicon.jpeg" />
   <meta property="og:description" content="Falando sobre desenvolvimento de softwares" />
   <!-- OG Tags global fim -->
   
   <!-- OG Tags Twitter iniicio -->
   <meta property="twitter:title" content="ICarros Academy"/>
   <meta property="twitter:description" content="Falando sobre desenvolvimento de softwares" />
-  <meta property="twitter:image" content="img/favicon.jpg" />
+  <meta property="twitter:image" content="img/ico.jpeg" />
   <!-- OG Tags Twitter fim -->
   
-  <!-- OG Tags Google início -->
+  <!-- Tags Google início -->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Falando sobre desenvolvimento de sofwares" />
+  <meta name="description" content="Falando sobre desenvolvimento de sofwares desenvolvimento, html, css, javascript, ICarros Academy" />
   <meta name="keywords" content="desenvolvimento, html, css, javascript, ICarros Academy">
   <meta name="copyright" content="Desenvolvido por ICarros Academy" />
-  <!-- OG Tags Google fim -->
-  
+  <!-- Tags Google fim -->
+
+  <!-- Verificação do Google search console -->
+  <meta name="google-site-verification" content="gisOyHtiY_XPcDo4k0IzibWit1i7QdzSlhsEXZ9DGWs" />
+
+  <!-- Importação de arquivo javascript -->
+  <script defer src="js/app.js"></script>
+
   <link rel="icon" type="image/jpeg" href="img/favicon.jpg">
   <link rel="stylesheet" href="css/styles.css">
-  <title>ICarros</title>
+  <title>ICarros | Projeto Gama Academy</title>
 </head>
 <body>
-    <header>
-        <h1>ICarros</h1>
-    </header>
 
-    <main>
-        <section>
-            <h2>HTML</h2>
-            <p>Uma linguagem de marcação.</p>
-        </section>
-        <section>
-            <h2>CSS</h2>
-            <p>Uma linguagem de estilização.</p>
-        </section>
-        <section>
-            <h2>JavaScript</h2>
-            <p>Uma linguagem de programação.</p>
-        </section>
-    </main>
+  <header id="top" class="header-position">
+    <a href="#top">
+      <img src="img/logo-icarros.png" alt="Logo Icarros - Projeto HTML e CSS">
+    </a>
+    <nav id="desktop-main">
+      <a href="#html">Html</a>
+      <a href="#css">CSS</a>
+      <a href="#js">Javascript</a>
+    </nav>
+    <nav id="mobile-main">
+      <div id="menuToggle">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
 
-    <footer>
-        <p>Todos os direitos reservados.</p>
-    </footer>
+        <ul id="mobileMainContent">
+          <a href="#html">Html</a>
+          <a href="#css">CSS</a>
+          <a href="#js">Javascript</a>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <main>
+   <section id="html" class="section-default center-content orange-bg--section">
+     <div>
+      <h2>Html</h2>
+      <article>
+         HTML - Hiper-Text Markup Language
+         <button id="btn-html">Clique aqui para ver mais</button>
+      </article>
+     </div>
+   </section>
+   <section id="css" class="section-default center-content blue-bg--section">
+      <div>
+        <h2>CSS</h2>
+        <article>
+          CSS - Cascade Style Sheet
+         <button id="btn-css">Clique aqui para ver mais</button>
+        </article>
+      </div>
+    </section>
+    <section id="js" class="section-default center-content orange-bg--section">
+      <div>
+        <h2>JavaScript</h2>
+        <article>
+          JavaScript - ECMASCRIPT
+        <button id="btn-js">Clique aqui para ver mais</button>
+        </article>
+      </div>
+    </section>   
+  </main>
+
+  <div class="floating-button">
+    <a href="#top">
+      Top
+    </a>
+  </div>
+  
+  <footer>
+    <div class="link-content">
+      <div class="footer-links">
+        <a href="#html">HTML</a>
+        <a href="#css">CSS</a>
+        <a href="#js">Javascript</a>
+        <a href="#">Link d</a>
+      </div>
+  
+      <div class="footer-links">
+        <a href="#">Link e</a>
+        <a href="#">Link f</a>
+        <a href="#">Link g</a>
+        <a href="#">Link h</a>
+      </div>
+    </div>
+    <p>Todos os direitos reservados</p>
+  </footer>
+
 </body>
 </html>
